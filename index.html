@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diamond Motors - Luxury Vehicles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!--  Car Gallery -->
+    <aside class="car-gallery">
+      <h2>Our Collection</h2>
+      <div class="gallery-grid">
+        <img src="images/lamborghini Urus.jpg" alt="Lamborghini">
+          <img src="images/ferrari Purosangue.jpeg" alt="Ferrari">
+            <img src="images/Rolls-Royces.jpeg" alt="Rolls Royce">
+          <img src="images/Porsche.jpg" alt="Porsche">
+        <img src="images/Aston martin.jpeg" alt="Aston Martin">
+        <img src="images/Bentley.jpg" alt="Bentley">
+        <img src="images/Maserati.jpeg" alt="Maserati">
+        <img src="images/BUgati La Voiture noire.jpeg" alt="Bugatti">
+        <img src="images/Mercedes amg.jpeg" alt="Mercedes AMG">
+        <img src="images/BMw M 600bhp M60.jpg" alt="BMW M Series">
+        <img src="images/Audi R8.jpeg" alt="Audi R8">
+        <img src="images/Jaguar F8.jpeg" alt="Jaguar">
+        <img src="images/Megacar Koenigsegg.jpeg" alt="Koenigsegg">
+        <img src="images/Pagani Huayra.jpeg" alt="Pagani">
+        <img src="images/Tesla roadster.jpeg" alt="Tesla Roadster">
+        <img src="images/Corvette Stingray 2Lt.jpeg" alt="Corvette">
+        <img src="images/Mclaren 720s.jpeg" alt="McLaren">
+        <img src="images/Supercar.jpeg" alt="Supercar">
+      </div>
+    </aside>
+
+    <!-- Below: Content -->
+    <main class="content">
+      <header>
+        <h1>Diamond Motors</h1>
+        <p>Luxury on Wheels. Drive the Dream.</p>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <h2>Experience the Ultimate in Automotive Luxury</h2>
+        <button id="quoteBtn">Request a Quote</button>
+      </section>
+
+      <!-- Car Info Display -->
+      <section class="car-info">
+        <h2>Explore Our Cars</h2>
+        <p id="carInfo">Click on a car image to learn more...</p>
+      </section>
+
+      <!-- Form -->
+      <section class="form-section">
+        <h2>Book a Test Drive</h2>
+        <form id="testDriveForm">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name">
+
+          <label for="email">Email Address:</label>
+          <input type="text" id="email" name="email">
+
+          <label for="car">Preferred Car:</label>
+          <select id="car" name="car">
+            <option value="">Select a car</option>
+            <option value="Lamborghini Aventador">Lamborghini Aventador</option>
+            <option value="Rolls Royce Phantom">Rolls Royce Phantom</option>
+            <option value="Ferrari 812 Superfast">Ferrari 812 Superfast</option>
+            <option value="Bugatti Chiron">Bugatti Chiron</option>
+            <option value="McLaren 720S">McLaren 720S</option>
+          </select>
+
+          <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+      </section>
+
+      <footer>
+        <p>&copy; 2025 Diamond Motors. All Rights Reserved.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
